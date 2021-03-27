@@ -1,0 +1,23 @@
+﻿{
+  "namespace": "LMS.Models",
+  "type": "record",
+  "name": "LeaveApplication",
+  "fields": [
+    {
+      "name": "EmpEmail",
+      "type": "string"
+    },
+    {
+      "name": "EmpDepartment",
+      "type": "string"
+    },
+    {
+      "name": "LeaveDurationInHours",
+      "type": "int"
+    },
+    {
+      "name": "LeaveStartDateTicks",
+      "type": "long"
+    }
+  ]
+}
